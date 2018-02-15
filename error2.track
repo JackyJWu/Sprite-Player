@@ -1,0 +1,6 @@
+# the most basic track, with all elements onscreen, and an error
+
+wall 0 50 250 10 42
+wall 0 -60 250 10
+
+finish 200 -50 50 100

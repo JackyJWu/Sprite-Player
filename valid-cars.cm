@@ -1,0 +1,207 @@
+framedelay 0.1
+
+line l0 ...___
+line l1 ._/..O\___
+line l2 |........C
+line l3 --O---O--/
+line l4 --o---o--/
+
+line wall-e .........^
+line wall ......../
+line wall1 ........|
+
+line bwall0 ..........\
+line bwall1 ..........|
+line bwall_lazyshift .
+
+sprite car l0 l1 l2 l3
+sprite car2 l0 l1 l2 l4
+sprite wall wall-e wall wall1 wall1 wall1 wall1
+sprite bwall bwall_lazyshift bwall0 bwall1 bwall1 bwall1
+
+frame start
+draw bwall at 10 0
+draw car at 12 0
+draw car at 20 0
+draw wall at 10 0
+frame end
+frame start
+draw bwall at 10 0
+draw car at 12 1
+draw car at 20 2
+draw wall at 10 0
+frame end
+frame start
+draw bwall at 10 0
+draw car at 12 2
+draw car at 20 4
+draw wall at 10 0
+frame end
+frame start
+draw bwall at 10 0
+draw car2 at 12 3
+draw car at 20 6
+draw wall at 10 0
+frame end
+frame start
+draw bwall at 10 0
+draw car at 12 4
+draw car at 20 8
+draw wall at 10 0
+frame end
+frame start
+draw bwall at 10 0
+draw car at 12 5
+draw car at 20 10
+draw wall at 10 0
+frame end
+frame start
+draw bwall at 10 0
+draw car at 12 6
+draw car at 20 12
+draw wall at 10 0
+frame end
+frame start
+draw bwall at 10 0
+draw car2 at 12 7
+draw car at 20 14
+draw wall at 10 0
+frame end
+frame start
+draw bwall at 10 0
+draw car at 12 8
+draw car at 20 16
+draw wall at 10 0
+frame end
+frame start
+draw bwall at 10 0
+draw car at 12 9
+draw car at 20 18
+draw wall at 10 0
+frame end
+
+frame start
+draw bwall at 10 0
+draw car at 12 10
+draw car at 20 20
+draw wall at 10 0
+frame end
+frame start
+draw bwall at 10 0
+draw car at 12 11
+draw car at 20 22
+draw wall at 10 0
+frame end
+frame start
+draw bwall at 10 0
+draw car at 12 12
+draw car at 20 24
+draw wall at 10 0
+frame end
+frame start
+draw bwall at 10 0
+draw car at 12 13
+draw car at 20 26
+draw wall at 10 0
+frame end
+frame start
+draw bwall at 10 0
+draw car at 12 14
+draw car at 20 28
+draw wall at 10 0
+frame end
+frame start
+draw bwall at 10 0
+draw car at 12 15
+draw car at 20 30
+draw wall at 10 0
+frame end
+frame start
+draw bwall at 10 0
+draw car at 12 16
+draw car at 20 32
+draw wall at 10 0
+frame end
+frame start
+draw bwall at 10 0
+draw car at 12 17
+draw car at 20 34
+draw wall at 10 0
+frame end
+frame start
+draw bwall at 10 0
+draw car at 12 18
+draw car at 20 36
+draw wall at 10 0
+frame end
+frame start
+draw bwall at 10 0
+draw car at 12 19
+draw car at 20 38
+draw wall at 10 0
+frame end
+frame start
+draw bwall at 10 0
+draw car at 12 20
+draw car at 20 40
+draw wall at 10 0
+frame end
+frame start
+draw bwall at 10 0
+draw car at 12 21
+draw car at 20 42
+draw wall at 10 0
+frame end
+frame start
+draw bwall at 10 0
+draw car at 12 22
+draw car at 20 44
+draw wall at 10 0
+frame end
+frame start
+draw bwall at 10 0
+draw car at 12 23
+draw car at 20 46
+draw wall at 10 0
+frame end
+frame start
+draw bwall at 10 0
+draw car at 12 24
+draw car at 20 48
+draw wall at 10 0
+frame end
+frame start
+draw bwall at 10 0
+draw car at 12 25
+draw car at 20 50
+draw wall at 10 0
+frame end
+frame start
+draw bwall at 10 0
+draw car at 12 26
+draw car at 20 52
+draw wall at 10 0
+frame end
+frame start
+draw bwall at 10 0
+draw car at 12 27
+draw car at 20 54
+draw wall at 10 0
+frame end
+frame start
+draw bwall at 10 0
+draw car at 12 28
+draw car at 20 56
+draw wall at 10 0
+frame end
+frame start
+draw bwall at 10 0
+draw car at 12 29
+draw car at 20 58
+draw wall at 10 0
+frame end
+
+
+framedelay 2
+frame end
+end

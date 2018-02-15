@@ -1,0 +1,268 @@
+# space invaders
+
+framedelay 0.5
+
+line i1a0 ....XXXX
+line i1a1 .XXXXXXXXXX
+line i1a2 XXXXXXXXXXXX
+line i1a3 XXX..XX..XXX
+line i1a4 XXXXXXXXXXXX
+line i1a5 ..XXX..XXX
+line i1a6 .XX..XX..XX
+line i1a7 ..XX....XX
+line i1a8 XX........XX
+sprite i1a i1a0 i1a1 i1a2 i1a3 i1a4 i1a5 i1a6 i1a7
+sprite i1b i1a0 i1a1 i1a2 i1a3 i1a4 i1a5 i1a6 i1a8
+
+line i2a0 ..X.....X
+line i2a1 ...X...X
+line i2a2 ..XXXXXXX
+line i2a3 .XX.XXX.XX
+line i2a4 XXXXXXXXXXX
+line i2a5 X.XXXXXXX.X
+line i2a6 X.X.....X.X
+line i2a7 ...XX.XX
+sprite i2a i2a0 i2a1 i2a2 i2a3 i2a4 i2a5 i2a6 i2a7
+
+line i2b0 ..X.....X
+line i2b1 X..X...X..X
+line i2b2 X.XXXXXXX.X
+line i2b3 XXX.XXX.XXX
+line i2b4 XXXXXXXXXXX
+line i2b5 ..XXXXXXX..
+line i2b6 ..X.....X..
+line i2b7 .X.......X
+sprite i2b i2b0 i2b1 i2b2 i2b3 i2b4 i2b5 i2b6 i2b7
+
+line i3a0 ...XX
+line i3a1 ..XXXX
+line i3a2 .XXXXXX
+line i3a3 XX.XX.XX
+line i3a4 XXXXXXXX
+line i3a5 .X.XX.X
+line i3a6 X......X
+line i3a7 .X....X
+sprite i3a i3a0 i3a1 i3a2 i3a3 i3a4 i3a5 i3a6 i3a7
+
+line i3b0 ...XX
+line i3b1 ..XXXX
+line i3b2 .XXXXXX
+line i3b3 XX.XX.XX
+line i3b4 XXXXXXXX
+line i3b5 ..X..X
+line i3b6 .X.XX.X
+line i3b7 X.X..X.X
+sprite i3b i3b0 i3b1 i3b2 i3b3 i3b4 i3b5 i3b6 i3b7
+
+line p0 ....._
+line p1 .___/.\___
+line p2 /.........\
+line p3 |_________|
+sprite p p0 p1 p2 p3
+
+line s0 /
+line s1 \
+sprite sa s0 s1 s0
+sprite sb s1 s0 s1
+
+frame start
+draw i1a at 2 2
+draw i2b at 2 19
+draw i3a at 2 35
+draw p at 16 60
+frame end
+frame start
+draw i1b at 2 3
+draw i2a at 2 20
+draw i3b at 2 36
+draw p at 16 58
+frame end
+frame start
+draw i1a at 2 4
+draw i2b at 2 21
+draw i3a at 2 37
+draw p at 16 56
+frame end
+frame start
+draw i1b at 2 5
+draw i2a at 2 22
+draw i3b at 2 38
+draw p at 16 54
+frame end
+frame start
+draw i1a at 2 6
+draw i2b at 2 23
+draw i3a at 2 39
+draw p at 16 52
+frame end
+frame start
+draw i1b at 2 7
+draw i2a at 2 24
+draw i3b at 2 39
+draw p at 16 50
+draw sa at 10 42
+frame end
+frame start
+draw i1a at 2 8
+draw i2b at 2 25
+draw i3a at 2 41
+draw p at 16 48
+draw sb at 11 42
+frame end
+frame start
+draw i1b at 2 9
+draw i2a at 2 26
+draw i3b at 2 42
+draw p at 16 46
+draw sa at 12 42
+frame end
+frame start
+draw i1a at 2 10
+draw i2b at 2 27
+draw i3a at 2 43
+draw p at 16 44
+draw sb at 13 42
+frame end
+frame start
+draw i1b at 2 11
+draw i2a at 2 28
+draw i3b at 2 44
+draw p at 16 42
+draw sa at 14 42
+frame end
+frame start
+draw i1a at 2 12
+draw i2b at 2 29
+draw i3a at 2 45
+draw p at 16 40
+draw sb at 15 42
+frame end
+
+line 71_0 ........
+line 71_1 ........
+line 71_2 ..XXXX..
+line 71_3 .X....X.
+line 71_4 .X......
+line 71_5 .X......
+line 71_6 .X......
+line 71_7 .X..XXX.
+line 71_8 .X....X.
+line 71_9 .X...XX.
+line 71_10 ..XXX.X.
+line 71_11 ........
+line 71_12 ........
+sprite G 71_0 71_1 71_2 71_3 71_4 71_5 71_6 71_7 71_8 71_9 71_10 71_11 71_12
+line 65_0 ........
+line 65_1 ........
+line 65_2 ...XX...
+line 65_3 ..X..X..
+line 65_4 .X....X.
+line 65_5 .X....X.
+line 65_6 .X....X.
+line 65_7 .XXXXXX.
+line 65_8 .X....X.
+line 65_9 .X....X.
+line 65_10 .X....X.
+line 65_11 ........
+line 65_12 ........
+sprite A 65_0 65_1 65_2 65_3 65_4 65_5 65_6 65_7 65_8 65_9 65_10 65_11 65_12
+line 77_0 ........
+line 77_1 ........
+line 77_2 X.....X.
+line 77_3 X.....X.
+line 77_4 XX...XX.
+line 77_5 X.X.X.X.
+line 77_6 X..X..X.
+line 77_7 X..X..X.
+line 77_8 X.....X.
+line 77_9 X.....X.
+line 77_10 X.....X.
+line 77_11 ........
+line 77_12 ........
+sprite M 77_0 77_1 77_2 77_3 77_4 77_5 77_6 77_7 77_8 77_9 77_10 77_11 77_12
+line 69_0 ........
+line 69_1 ........
+line 69_2 .XXXXXX.
+line 69_3 .X......
+line 69_4 .X......
+line 69_5 .X......
+line 69_6 .XXXX...
+line 69_7 .X......
+line 69_8 .X......
+line 69_9 .X......
+line 69_10 .XXXXXX.
+line 69_11 ........
+line 69_12 ........
+sprite E 69_0 69_1 69_2 69_3 69_4 69_5 69_6 69_7 69_8 69_9 69_10 69_11 69_12
+line 79_0 ........
+line 79_1 ........
+line 79_2 ..XXXX..
+line 79_3 .X....X.
+line 79_4 .X....X.
+line 79_5 .X....X.
+line 79_6 .X....X.
+line 79_7 .X....X.
+line 79_8 .X....X.
+line 79_9 .X....X.
+line 79_10 ..XXXX..
+line 79_11 ........
+line 79_12 ........
+sprite O 79_0 79_1 79_2 79_3 79_4 79_5 79_6 79_7 79_8 79_9 79_10 79_11 79_12
+line 86_0 ........
+line 86_1 ........
+line 86_2 X.....X.
+line 86_3 X.....X.
+line 86_4 .X...X..
+line 86_5 .X...X..
+line 86_6 .X...X..
+line 86_7 ..X.X...
+line 86_8 ..X.X...
+line 86_9 ..X.X...
+line 86_10 ...X....
+line 86_11 ........
+line 86_12 ........
+sprite V 86_0 86_1 86_2 86_3 86_4 86_5 86_6 86_7 86_8 86_9 86_10 86_11 86_12
+line 82_0 ........
+line 82_1 ........
+line 82_2 .XXXXX..
+line 82_3 .X....X.
+line 82_4 .X....X.
+line 82_5 .X....X.
+line 82_6 .XXXXX..
+line 82_7 .X.X....
+line 82_8 .X..X...
+line 82_9 .X...X..
+line 82_10 .X....X.
+line 82_11 ........
+line 82_12 ........
+sprite R 82_0 82_1 82_2 82_3 82_4 82_5 82_6 82_7 82_8 82_9 82_10 82_11 82_12
+
+frame start
+draw G at 0 12
+frame end
+frame copy
+draw A at 0 20
+frame end
+frame copy
+draw M at 0 28
+frame end
+frame copy
+draw E at 0 36
+frame end
+frame copy
+draw O at 11 18
+frame end
+frame copy
+draw V at 11 26
+frame end
+frame copy
+draw E at 11 34
+frame end
+frame copy
+draw R at 11 42
+frame end
+
+framedelay 2
+frame end
+
+end

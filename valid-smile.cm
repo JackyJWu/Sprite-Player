@@ -1,0 +1,16 @@
+# example file - one frame only
+
+framedelay 1
+
+line s1 X...X
+line s4 .XXX
+line s2 ..X
+sprite smile s1 s2 s1 s4
+
+frame start
+draw smile at 5 20
+draw smile at 0 0
+draw smile at 19 60
+frame end
+
+end

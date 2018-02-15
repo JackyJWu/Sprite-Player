@@ -1,0 +1,4 @@
+line foo foo
+sprite foo foo
+draw foo at asdf 20
+end

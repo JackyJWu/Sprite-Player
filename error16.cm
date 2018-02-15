@@ -1,0 +1,4 @@
+line foo foo
+sprite foo foo
+draw foo 10 20
+end

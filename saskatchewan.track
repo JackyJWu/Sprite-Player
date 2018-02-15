@@ -1,0 +1,13 @@
+# a "normal" track
+# straight track, with some segments offscreen to start, and different sizes
+
+# no particular ordering required
+finish 1000 -50 50 100
+
+# top
+wall 510 50 490 15
+wall 0 50 500 10
+
+# bottom
+wall 0 -60 495 10
+wall 515 -65 485 15

@@ -1,0 +1,223 @@
+# scrolling marquee, using frame copy
+
+framedelay 0.25
+
+space ^
+line l0 +----------+
+line l1 |^^^^^^^^^^|
+
+sprite marquee l0 l1 l1 l1 l0
+
+space _
+line s0 __________
+line s1 _________C
+line s2 ________CP
+line s3 _______CPS
+line s4 ______CPSC
+line s5 _____CPSC_
+line s6 ____CPSC_2
+line s7 ___CPSC_23
+line s8 __CPSC_231
+line s9 _CPSC_231_
+line s10 CPSC_231_
+line s11 PSC_231_
+line s12 SC_231_
+line s13 C_231_
+line s14 _231_
+line s15 231_
+line s16 31_
+line s17 1_
+
+sprite S0 s0
+sprite S1 s1
+sprite S2 s2
+sprite S3 s3
+sprite S4 s4
+sprite S5 s5
+sprite S6 s6
+sprite S7 s7
+sprite S8 s8
+sprite S9 s9
+sprite S10 s10
+sprite S11 s11
+sprite S12 s12
+sprite S13 s13
+sprite S14 s14
+sprite S15 s15
+sprite S16 s16
+sprite S17 s17
+
+frame start
+draw marquee at 10 20
+frame end
+
+frame copy
+draw S0 at 12 21
+frame end
+frame copy
+draw S1 at 12 21
+frame end
+frame copy
+draw S2 at 12 21
+frame end
+frame copy
+draw S3 at 12 21
+frame end
+frame copy
+draw S4 at 12 21
+frame end
+frame copy
+draw S5 at 12 21
+frame end
+frame copy
+draw S6 at 12 21
+frame end
+frame copy
+draw S7 at 12 21
+frame end
+frame copy
+draw S8 at 12 21
+frame end
+frame copy
+draw S9 at 12 21
+frame end
+frame copy
+draw S10 at 12 21
+frame end
+frame copy
+draw S11 at 12 21
+frame end
+frame copy
+draw S12 at 12 21
+frame end
+frame copy
+draw S13 at 12 21
+frame end
+frame copy
+draw S14 at 12 21
+frame end
+frame copy
+draw S15 at 12 21
+frame end
+frame copy
+draw S16 at 12 21
+frame end
+frame copy
+draw S17 at 12 21
+frame end
+
+frame copy
+draw S0 at 12 21
+frame end
+frame copy
+draw S1 at 12 21
+frame end
+frame copy
+draw S2 at 12 21
+frame end
+frame copy
+draw S3 at 12 21
+frame end
+frame copy
+draw S4 at 12 21
+frame end
+frame copy
+draw S5 at 12 21
+frame end
+frame copy
+draw S6 at 12 21
+frame end
+frame copy
+draw S7 at 12 21
+frame end
+frame copy
+draw S8 at 12 21
+frame end
+frame copy
+draw S9 at 12 21
+frame end
+frame copy
+draw S10 at 12 21
+frame end
+frame copy
+draw S11 at 12 21
+frame end
+frame copy
+draw S12 at 12 21
+frame end
+frame copy
+draw S13 at 12 21
+frame end
+frame copy
+draw S14 at 12 21
+frame end
+frame copy
+draw S15 at 12 21
+frame end
+frame copy
+draw S16 at 12 21
+frame end
+frame copy
+draw S17 at 12 21
+frame end
+
+frame copy
+draw S0 at 12 21
+frame end
+frame copy
+draw S1 at 12 21
+frame end
+frame copy
+draw S2 at 12 21
+frame end
+frame copy
+draw S3 at 12 21
+frame end
+frame copy
+draw S4 at 12 21
+frame end
+frame copy
+draw S5 at 12 21
+frame end
+frame copy
+draw S6 at 12 21
+frame end
+frame copy
+draw S7 at 12 21
+frame end
+frame copy
+draw S8 at 12 21
+frame end
+frame copy
+draw S9 at 12 21
+frame end
+frame copy
+draw S10 at 12 21
+frame end
+frame copy
+draw S11 at 12 21
+frame end
+frame copy
+draw S12 at 12 21
+frame end
+frame copy
+draw S13 at 12 21
+frame end
+frame copy
+draw S14 at 12 21
+frame end
+frame copy
+draw S15 at 12 21
+frame end
+frame copy
+draw S16 at 12 21
+frame end
+frame copy
+draw S17 at 12 21
+frame end
+
+frame copy
+draw S0 at 12 21
+framedelay 2
+frame end
+end
